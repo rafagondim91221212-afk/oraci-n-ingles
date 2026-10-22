@@ -4,7 +4,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'SanBenito — Direct',
-  description: 'VSL em direto com transmissão exclusiva.',
+  description: 'Exclusive live broadcast.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -39,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="es">
+    <html lang="en">
       <head>
         {/* Google Tag Manager */}
         <script
