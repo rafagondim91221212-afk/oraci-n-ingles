@@ -40,11 +40,11 @@ export default function Page() {
   const [isLive, setIsLive] = useState(true)
 
   useEffect(() => {
-    const playerScriptId = 'vturb-player-6ad222713daf35d2eb3b2d43'
+    const playerScriptId = 'vturb-player-6ada6b362ca0c3473b667405'
     if (!document.getElementById(playerScriptId)) {
       const script = document.createElement('script')
       script.id = playerScriptId
-      script.src = 'https://scripts.converteai.net/e0b6b027-7861-4f15-8697-a6b42cfa2c3e/players/6ad222713daf35d2eb3b2d43/v4/player.js'
+      script.src = 'https://scripts.converteai.net/e0b6b027-7861-4f15-8697-a6b42cfa2c3e/players/6ada6b362ca0c3473b667405/v4/player.js'
       script.async = true
       document.head.appendChild(script)
     }
@@ -92,7 +92,7 @@ export default function Page() {
 
       <div className="mx-auto w-full max-w-[570px] px-3 pb-4 pt-2 sm:px-0">
         <section aria-label="Main video" className="mx-auto w-full max-w-[400px] overflow-hidden bg-black">
-          <vturb-smartplayer id="vid-6ad222713daf35d2eb3b2d43" style={{ display: 'block', margin: '0 auto', width: '100%', maxWidth: '400px' }}>
+          <vturb-smartplayer id="vid-6ada6b362ca0c3473b667405" style={{ display: 'block', margin: '0 auto', width: '100%', maxWidth: '400px' }}>
             <div className="relative w-full bg-black" style={{ padding: '133.33333333333331% 0 0', zIndex: 0 }} />
           </vturb-smartplayer>
         </section>
