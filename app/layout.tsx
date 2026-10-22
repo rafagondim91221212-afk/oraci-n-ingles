@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'SanBenito — Direct',
+  title: 'Saint Benedict — Direct',
   description: 'Exclusive live broadcast.',
   generator: 'v0.app',
   icons: {

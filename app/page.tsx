@@ -73,7 +73,7 @@ export default function Page() {
         <Menu className="size-4 text-[#333]" aria-label="Menu" />
         <div className="flex items-center gap-1 font-bold tracking-tight">
           <span className="flex size-4 items-center justify-center rounded-[4px] bg-[#ff0000] text-[9px] text-white">▶</span>
-          <span>SanBenito</span>
+          <span>Saint Benedict</span>
         </div>
         <div className="ml-2 flex h-8 flex-1 max-w-[420px] overflow-hidden border border-[#bcbcbc] bg-white">
           <input aria-label="Search" className="min-w-0 flex-1 px-3 text-[11px] outline-none" placeholder="Search" />
